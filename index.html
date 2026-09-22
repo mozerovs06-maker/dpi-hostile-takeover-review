@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DPI Hostile Takeover Reconstruction</title>
+  <meta name="description" content="Evidence-led reconstruction of DPI's financial statements for the year ended 31 August 2026.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b1f33'/%3E%3Cpath d='M17 16h18c10 0 16 6 16 16S45 48 35 48H17zm10 9v14h7c5 0 8-2 8-7s-3-7-8-7z' fill='%23f2b544'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/report.css"><link rel="stylesheet" href="/assets/compliance.css">
+</head>
+<body data-page="main">
+  <header class="topbar"><a class="brand" href="/">DPI <span>EVIDENCE BOARD</span></a><nav><a href="#statements">Statements</a><a href="#workings">Workings</a><a href="#evidence-register">Evidence</a><a href="#decisions">Decisions</a><a href="/review/">Review</a><a class="button small" href="/submission.json">JSON</a></nav></header>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">DPI-HT-01 · YEAR ENDED 31 AUGUST 2026</div>
+      <h1>Numbers rebuilt from evidence.<br><em>Not management narrative.</em></h1>
+      <p class="lede">A forensic, evidence-led reconstruction prepared for the board following a disputed hostile-takeover accounting pack.</p>
+      <div class="hero-actions"><a class="button" href="#verdict">Read the verdict</a><a class="text-link" href="/review/">Open compact review →</a></div>
+      <div class="identity-alert"><strong>Prepared by:</strong> Mihails Ozerovs · Student ID mo25024</div>
+    </section>
+
+    <section class="kpis" aria-label="Key results">
+      <article><span>Corrected revenue</span><strong>€960,000</strong><small>Evidence-supported</small></article>
+      <article><span>Supported net profit</span><strong>€65,000</strong><small>vs management €312,000</small></article>
+      <article><span>Total assets</span><strong>€531,000</strong><small>No insurance plug</small></article>
+      <article><span>Closing cash</span><strong>€60,000</strong><small>Bank-reconciled</small></article>
+    </section>
+
+    <section class="section split" id="verdict">
+      <div><div class="eyebrow">EXECUTIVE VERDICT</div><h2>Reject the reported profit. Approve the corrected accounts conditionally.</h2></div>
+      <div><p>Management’s €312,000 profit is overstated by €247,000. The supported result is €65,000 after correcting cut-off, returns, doubtful debts, inventory, payroll, depreciation, financing and legal exposures.</p><p class="callout">Continue operations only with immediate control remediation. Insurance remains unquantified because no policy or ledger evidence was supplied.</p></div>
+    </section>
+
+    <section class="section" aria-labelledby="profit-title">
+      <div class="section-head"><div><div class="eyebrow">PROFIT GAP</div><h2 id="profit-title">The headline claim does not survive testing</h2></div><span class="risk">€247,000 overstatement</span></div>
+      <div class="bar-chart">
+        <div class="bar-row"><span>Management</span><div class="track"><i style="width:100%"></i></div><b>€312k</b></div>
+        <div class="bar-row corrected"><span>Supported</span><div class="track"><i style="width:20.8%"></i></div><b>€65k</b></div>
+      </div>
+    </section>
+
+    <section class="section" id="workings">
+      <div class="section-head"><div><div class="eyebrow">TRACEABLE WORKINGS</div><h2>Seven schedules connect evidence to the statements</h2></div><span class="status">Reconciled</span></div>
+      <div id="schedule-grid" class="schedule-grid"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><div><div class="eyebrow">RECONCILIATION PANEL</div><h2>Checks, not balancing plugs</h2></div><span class="status">7 pass · 1 open</span></div>
+      <div id="reconciliation-grid" class="check-grid"></div>
+    </section>
+
+    <section class="section" id="evidence-register">
+      <div class="section-head"><div><div class="eyebrow">EVIDENCE REGISTER</div><h2>Source strength is explicit</h2></div><span class="count">11 sources</span></div>
+      <div id="evidence-grid" class="evidence-grid"></div>
+    </section>
+
+    <section class="section" id="statements">
+      <div class="section-head"><div><div class="eyebrow">RECONSTRUCTED FINANCIALS</div><h2>Statements and cash bridge</h2></div><span class="status">Balances</span></div>
+      <div class="tabs" role="tablist"><button class="active" data-tab="income">Income statement</button><button data-tab="position">Financial position</button><button data-tab="cash">Cash flow</button></div>
+      <div id="statement-table" class="table-wrap" aria-live="polite"></div>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">CRITICAL UNCERTAINTIES</div><h2>What the board still needs to resolve</h2>
+      <div class="uncertainty-grid" id="uncertainties"></div>
+    </section>
+
+    <section class="section" id="decisions">
+      <div class="section-head"><div><div class="eyebrow">DECISION REGISTER</div><h2>100 explicit accounting decisions</h2></div><span id="decision-count" class="count">100 records</span></div>
+      <div class="filters"><input id="search" type="search" placeholder="Search decision, evidence or rationale…"><select id="tier"><option value="">All tiers</option><option>Tier 1</option><option>Tier 2</option><option>Tier 3</option></select></div>
+      <div class="table-wrap"><table class="decisions-table"><thead><tr><th>ID</th><th>Issue</th><th>Treatment</th><th>Evidence</th><th>Tier</th></tr></thead><tbody id="decision-rows"></tbody></table></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><div><div class="eyebrow">MATERIAL JUDGMENT TRAIL</div><h2>25 decisions independently challenged</h2></div><span class="count">Student reasoning retained</span></div>
+      <div id="judgment-grid" class="judgment-grid"></div>
+    </section>
+
+    <section class="section evidence">
+      <div><div class="eyebrow">CONTROL CONCLUSION</div><h2>Reliable numbers require a stronger close process.</h2></div>
+      <ol><li>Lock revenue cut-off to dispatch and acceptance evidence.</li><li>Reconcile inventory count, purchases and write-downs before sign-off.</li><li>Separate owner spending and require documented authorization.</li><li>Maintain a legal-claims register and evidence pack for every close.</li></ol>
+    </section>
+  </main>
+  <footer><span>DPI-HT-01 · Independent reconstruction</span><span><a href="/review/">Assessor view</a> · <a href="/submission.json">Machine-readable submission</a></span></footer>
+  <script src="/assets/site.js" defer></script>
+</body></html>
