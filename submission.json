@@ -1158,10 +1158,11 @@
       "statementEffect": {
         "profit": 0,
         "cash": 0,
-        "assets": 112000,
+        "assets": null,
         "liabilities": 0,
         "equity": 0
       },
+      "statementEffectNote": "Closing inventory balance is €112,000. This is a closing balance, not a €112,000 increase in total assets.",
       "changedFromAI": false
     },
     {
@@ -1471,11 +1472,11 @@
       "independentChallenge": "Challenge whether an adjusted earn-out could use a normalized figure.",
       "studentReasoning": "The claimed figure includes deposits and loan income and omits material adjustments; use verified corrected or normalized earnings only.",
       "statementEffect": {
-        "profit": -250000,
+        "profit": -247000,
         "cash": 0,
         "assets": 0,
         "liabilities": 0,
-        "equity": -250000
+        "equity": -247000
       },
       "changedFromAI": false
     }
